@@ -1,6 +1,8 @@
 # HauntedSchool
 
 Export game : https://drive.google.com/file/d/1iXj4fLUyTuyTfuv38zsYX0YYRKiyc_mY/view?usp=sharing
+
+  
 Ren'py file : https://drive.google.com/file/d/1WpKA-KHezEo87kqWrkSKefKVhY7aZoeG/view?usp=sharing 
 
 สมาชิกในกลุ่ม
