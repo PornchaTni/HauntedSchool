@@ -1,4 +1,5 @@
 # HauntedSchool
+**ตัวเกม export มาทั้ง exe และไฟล์โค้ด Ren'py อยู่ในโฟลเดอร์เดียวกัน** 
 
 Export game : https://drive.google.com/file/d/1iXj4fLUyTuyTfuv38zsYX0YYRKiyc_mY/view?usp=sharing
 
