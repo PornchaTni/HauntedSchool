@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 212, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 456, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 456, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 466, in _execute_python_hide
+    renpy.load("_reload-2")
+ImportError: No module named revertable
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 212, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 456, in script
+    python hide:
+  File "D:\HauntedSchool-1.0-dists\HauntedSchool-1.0-pc\renpy\ast.py", line 914, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\HauntedSchool-1.0-dists\HauntedSchool-1.0-pc\renpy\python.py", line 2028, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00keymap.rpy", line 456, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 466, in _execute_python_hide
+    renpy.load("_reload-2")
+  File "D:\HauntedSchool-1.0-dists\HauntedSchool-1.0-pc\renpy\loadsave.py", line 769, in load
+    roots, log = loads(location.load(filename))
+  File "D:\HauntedSchool-1.0-dists\HauntedSchool-1.0-pc\renpy\loadsave.py", line 63, in loads
+    return cPickle.loads(s)
+ImportError: No module named revertable
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+Haunted School 1.0
+Wed Mar 22 16:58:47 2023
